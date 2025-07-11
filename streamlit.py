@@ -26,7 +26,7 @@ st.markdown("""
 # Load model once
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model('Weather_model.h5')
+    model = tf.keras.models.load_model('Myweather_model.h5')
     return model
 
 model = load_model()
